@@ -10,8 +10,8 @@ import java.util.List;
 public class FlightService {
     private final DaoFlightFile flightFile;
 
-    public FlightService() {
-        this.flightFile = new DaoFlightFile(new File("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\flights.txt"));
+    public FlightService(String pathname) {
+        this.flightFile = new DaoFlightFile(new File(pathname));
     }
 
     public List<Flight> getAllFlights(){

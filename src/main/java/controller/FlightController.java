@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class FlightController {
-    private final FlightService flightService = new FlightService();
-    private final BookingService bookingService = new BookingService();
+    private final FlightService flightService = new FlightService("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\flights.txt");
+    private final BookingService bookingService = new BookingService("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\bookings.txt");
 
     public List<Flight> getAllFlights(){
         return flightService.getAllFlights();

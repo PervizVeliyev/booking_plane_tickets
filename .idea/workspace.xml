@@ -5,57 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b906094d-c4a3-438e-b5e0-c07520e877de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/bookings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/flights.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/CancelBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/MyBookings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/OnlineBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/RealConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/SearchAndBookFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/console/ShowTheFlightInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FlightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoBookingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoFlightFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoUserFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Airline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NonExistentMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/TicketsOverCapacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/LoginMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Adjuster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/FlightsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/RandomFlightGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlightServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-database/test-booking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-database/test-flights.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-database/test-users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/flights.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/flights.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FlightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/FlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +61,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.47816092&quot;
@@ -115,7 +82,7 @@
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="booking_plane_tickets" />
@@ -123,9 +90,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booking_plane_tickets" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingServiceTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booking_plane_tickets" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingServiceTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booking_plane_tickets" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booking_plane_tickets" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.FlightServiceTest" />
+        <item itemvalue="JUnit.BookingServiceTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BookingServiceTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +161,8 @@
       <workItem from="1662735668002" duration="81000" />
       <workItem from="1662737084885" duration="2212000" />
       <workItem from="1662740701706" duration="12349000" />
-      <workItem from="1662795683486" duration="16157000" />
+      <workItem from="1662795683486" duration="16435000" />
+      <workItem from="1662835091357" duration="8795000" />
     </task>
     <servers />
   </component>

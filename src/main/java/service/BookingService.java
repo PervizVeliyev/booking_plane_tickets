@@ -5,18 +5,13 @@ import entity.Booking;
 import logging.Logger;
 
 import java.io.File;
-import java.util.List;
 import java.util.Optional;
 
 public class BookingService {
     private final DaoBookingFile bookingFile;
 
-    public BookingService() {
-        this.bookingFile = new DaoBookingFile(new File("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\bookings.txt"));
-    }
-
-    public List<Booking> getAllBookings(){
-        return bookingFile.getAll();
+    public BookingService(String pathname) {
+        this.bookingFile = new DaoBookingFile(new File(pathname));
     }
 
     public boolean makeBooking(Booking booking){

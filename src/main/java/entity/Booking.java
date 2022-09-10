@@ -19,7 +19,7 @@ public class Booking implements Serializable, Identifiable {
         this.passengers = passengers;
     }
 
-    public void setPassengers(List passengers) {
+    public void setPassengers(List<Passenger> passengers) {
         this.passengers = passengers;
     }
 
@@ -27,7 +27,7 @@ public class Booking implements Serializable, Identifiable {
         return flight;
     }
 
-    public List getPassengers() {
+    public List<Passenger> getPassengers() {
         return passengers;
     }
 

@@ -11,8 +11,8 @@ import java.util.Optional;
 public class UserService {
     private final DaoUserFile userFile;
 
-    public UserService() {
-        this.userFile = new DaoUserFile(new File("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\users.txt"));
+    public UserService(String pathname) {
+        this.userFile = new DaoUserFile(new File(pathname));
     }
 
     public List<User> getAllUsers(){

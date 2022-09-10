@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class UserController {
-    private final UserService userService = new UserService();
-    private final BookingService bookingService = new BookingService();
+    private final UserService userService = new UserService("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\users.txt");
+    private final BookingService bookingService = new BookingService("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\database\\bookings.txt");
 
     public List<User> getAllUsers(){
         return userService.getAllUsers();

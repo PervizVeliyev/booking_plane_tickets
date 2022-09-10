@@ -23,9 +23,10 @@ public class Login {
                 MainMenu.run(console, loggedIn);
                 break;
             } else {
-                console.printLine("Login or password is incorrect.\n" +
-                        "If you don't have an account, please, register.\n" +
-                        "Type \"exit\" to go back.");
+                console.printLine("""
+                        Login or password is incorrect.
+                        If you don't have an account, please, register.
+                        Type "exit" to go back.""");
             }
         }
     }
