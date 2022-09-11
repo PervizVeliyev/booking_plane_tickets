@@ -134,3 +134,70 @@
 2022-09-11 01:21:51 INFO  Logger:17 - A user saved to the database.
 2022-09-11 01:21:51 INFO  Logger:17 - A user saved to the database.
 2022-09-11 01:21:51 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:55 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:55 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:55 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:55 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:55 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:59 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:59 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:59 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:59 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:30:59 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:31:56 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:31:56 INFO  Logger:17 - The capacity decreased for BA505 flight.
+2022-09-11 01:31:56 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 01:31:56 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:32:41 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:32:41 INFO  Logger:17 - The capacity decreased for BA505 flight.
+2022-09-11 01:32:41 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 01:32:41 INFO  Logger:17 - A user saved to the database.
+11/09/2022 01-34-22 ERROR Logger:26 - 
+2022-09-11 01:34:22 INFO  Logger:17 - A list of flights saved to the database.
+11/09/2022 01-34-30 ERROR Logger:26 - 
+11/09/2022 01-34-48 ERROR Logger:26 - 
+2022-09-11 01:34:48 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:35:45 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:35:45 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:35:45 INFO  Logger:17 - The capacity decreased for BA586 flight.
+11/09/2022 01-35-45 ERROR Logger:26 - 
+2022-09-11 01:35:45 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 01:35:45 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:36:12 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:36:12 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:36:12 INFO  Logger:17 - The capacity decreased for BA586 flight.
+2022-09-11 01:36:12 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 01:36:12 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:36:26 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:36:26 INFO  Logger:17 - The capacity increased for BRITISH_AIRWAYS flight.586
+2022-09-11 01:36:26 INFO  Logger:17 - A user saved to the database.
+2022-09-11 01:36:26 INFO  Logger:17 - A booking removed from the database.
+2022-09-11 01:36:58 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:36:58 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 01:36:58 INFO  Logger:17 - The capacity decreased for BA586 flight.
+2022-09-11 01:36:58 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 01:36:58 INFO  Logger:17 - A user saved to the database.
+2022-09-11 12:07:17 INFO  Logger:17 - A flight removed.
+2022-09-11 12:07:17 INFO  Logger:17 - A flight removed.
+11/09/2022 18-02-40 ERROR Logger:26 - No value present
+11/09/2022 18-02-50 ERROR Logger:26 - For input string: "exit"
+11/09/2022 18-05-00 ERROR Logger:26 - No value present
+11/09/2022 18-05-09 ERROR Logger:26 - For input string: "edde"
+2022-09-11 23:33:15 INFO  Logger:17 - A user saved to the database.
+2022-09-11 23:33:15 INFO  Logger:17 - A user saved to the database.
+2022-09-11 23:33:15 INFO  Logger:17 - A user saved to the database.
+2022-09-11 23:33:15 INFO  Logger:17 - A user saved to the database.
+2022-09-11 23:33:15 INFO  Logger:17 - A user saved to the database.
+2022-09-11 23:33:19 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 23:33:19 INFO  Logger:17 - A flight removed.
+2022-09-11 23:33:19 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-11 23:33:19 INFO  Logger:17 - A list of flights saved to the database.
+2022-09-11 23:33:19 INFO  Logger:17 - A list of flights saved to the database.
+11/09/2022 23-33-24 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 6511163406564640290, local class serialVersionUID = 7119867795259139740
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking removed from the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.

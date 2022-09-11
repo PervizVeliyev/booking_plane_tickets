@@ -25,7 +25,7 @@ public class UserController {
     }
 
     public boolean addBookingToTheUser(int userId, Booking booking){
-        User user = getUser(userId).get();
+        User user = getUser(userId).orElseThrow();
         List<Booking> bookings = user.getBookings();
         bookings.add(booking);
         user.setBookings(bookings);
@@ -33,9 +33,9 @@ public class UserController {
     }
 
     public String cancelBookingFromUser(int bookingId, int userId){
-        User user = getUser(userId).get();
+        User user = getUser(userId).orElseThrow();
         List<Booking> bookings = user.getBookings();
-        bookings.remove(bookingService.get(bookingId).get());
+        bookings.remove(bookingService.get(bookingId).orElseThrow());
         user.setBookings(bookings);
         saveUser(user);
         if (bookingService.remove(bookingId)) return "Booking cancelled.";

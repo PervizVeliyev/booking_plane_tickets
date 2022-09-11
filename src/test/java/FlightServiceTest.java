@@ -18,17 +18,17 @@ public class FlightServiceTest {
     @Test
     public void saveAll() {
         flightService.saveAll(flightList);
-        Assert.assertEquals(false, flightService.getAllFlights().isEmpty());
+        Assert.assertFalse(flightService.getAllFlights().isEmpty());
     }
 
     @Test
     public void savePositiveCase() {
-        Assert.assertEquals(true, flightService.save(flight1));
+        Assert.assertTrue(flightService.save(flight1));
     }
 
     @Test
     public void saveNegativeCase() {
-        Assert.assertEquals(false, flightService.save(null));
+        Assert.assertFalse(flightService.save(null));
     }
 
     @Test
@@ -40,11 +40,11 @@ public class FlightServiceTest {
     @Test
     public void removePositiveCase() {
         flightService.save(flight1);
-        Assert.assertEquals(true, flightService.remove(flight1.getId()));
+        Assert.assertTrue(flightService.remove(flight1.getId()));
     }
 
     @Test
     public void removeNegativeCase() {
-        Assert.assertEquals(false, flightService.remove(flight1.getId()));
+        Assert.assertFalse(flightService.remove(flight1.getId()));
     }
 }

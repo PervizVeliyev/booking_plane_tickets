@@ -8,18 +8,24 @@ public class Login {
     public static void run(Console console){
         while(true) {
             UserController userController = new UserController();
+
             console.print("Please, write your login:");
             String login = console.nextLine();
+
             if(login.equalsIgnoreCase("exit")) break;
+
             console.print("Please, write your password:");
             String password = console.nextLine();
+
             if(password.equalsIgnoreCase("exit")) break;
+
             if (userController.getAllUsers().contains(new User(login, password))) {
                 User loggedIn = userController.getAllUsers()
                                 .stream()
                                 .filter(user -> user.getLogin().equals(login.toLowerCase()) && user.getPassword().equals(password))
                                 .findFirst()
-                                .get();
+                                .orElseThrow();
+
                 MainMenu.run(console, loggedIn);
                 break;
             } else {

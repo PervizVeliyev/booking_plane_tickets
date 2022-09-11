@@ -8,7 +8,7 @@ import java.util.Objects;
 
 public class Booking implements Serializable, Identifiable {
     private static int counter = 1;
-    private int id;
+    private final int id;
     private final Flight flight;
     private List<Passenger> passengers;
 

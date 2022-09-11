@@ -20,7 +20,7 @@ public class BookingServiceTest {
     public void get() {
         bookingService.makeBooking(booking1);
         bookingService.makeBooking(booking2);
-        Assert.assertEquals(booking1, bookingService.get(booking1.getId()).get());
+        Assert.assertEquals(booking1, bookingService.get(booking1.getId()).orElseThrow());
     }
 
     @Test

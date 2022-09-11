@@ -9,7 +9,11 @@ import utility.FlightsGenerator;
 public class LoginMenu {
     public static void run(Console console){
         FlightController flightController = new FlightController();
-        if(flightController.getAllFlights().isEmpty()) flightController.saveAllFlights(FlightsGenerator.generator(300));
+
+//      Checking if flights are empty
+        if(flightController.getAllFlights().isEmpty())
+            flightController.saveAllFlights(FlightsGenerator.generator(300));
+
         flightController.removeExpiredFlights();
 
         while(true) {

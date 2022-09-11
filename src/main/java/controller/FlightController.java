@@ -36,16 +36,18 @@ public class FlightController {
                     flight.setCapacity(flight.getCapacity() - seats);
                     flightService.save(flight);
                 });
+
         Logger.info(String.format("The capacity decreased for %s flight.", airlineCode));
     }
 
     public void increaseCapacity(int bookingId){
-        Flight flight = bookingService.get(bookingId).get().getFlight();
-        int seats = bookingService.get(bookingId).get().getPassengers().size();
+        Flight flight = bookingService.get(bookingId).orElseThrow().getFlight();
+        int seats = bookingService.get(bookingId).orElseThrow().getPassengers().size();
         flight.setCapacity(flight.getCapacity() + seats);
         flightService.save(flight);
-        Logger.info(String.format("The capacity increased for %s flight.", bookingService.get(bookingId).get().getFlight().getAirline()).concat(
-                String.valueOf(bookingService.get(bookingId).get().getFlight().getCode())));
+
+        Logger.info(String.format("The capacity increased for %s flight.", bookingService.get(bookingId).orElseThrow().getFlight().getAirline()).concat(
+                String.valueOf(bookingService.get(bookingId).orElseThrow().getFlight().getCode())));
     }
 
     public void removeExpiredFlights(){

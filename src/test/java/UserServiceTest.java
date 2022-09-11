@@ -31,6 +31,6 @@ public class UserServiceTest {
     public void get() {
         userService.save(user1);
         userService.save(user2);
-        Assert.assertEquals(user2, userService.get(user2.getId()).get());
+        Assert.assertEquals(user2, userService.get(user2.getId()).orElseThrow());
     }
 }
