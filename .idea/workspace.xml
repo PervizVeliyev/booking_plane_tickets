@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b906094d-c4a3-438e-b5e0-c07520e877de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/UsernameExists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/bookings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/bookings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/flights.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/flights.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/console/CancelBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/CancelBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/console/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/console/OnlineBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/OnlineBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/console/RealConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/RealConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/console/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/console/SearchAndBookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/SearchAndBookFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/console/ShowTheFlightInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/ShowTheFlightInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FlightController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/LoginMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/LoginMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,7 @@
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookingServiceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="booking_plane_tickets" />
@@ -132,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BookingServiceTest" />
         <item itemvalue="JUnit.FlightServiceTest" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BookingServiceTest.get" />
       </list>
     </recent_temporary>
@@ -168,7 +161,16 @@
       <workItem from="1662835091357" duration="9793000" />
       <workItem from="1662883605706" duration="86000" />
       <workItem from="1662901845993" duration="6453000" />
-      <workItem from="1662924373017" duration="409000" />
+      <workItem from="1662924373017" duration="1788000" />
+      <workItem from="1662985368351" duration="1795000" />
+      <workItem from="1663010441558" duration="36000" />
+      <workItem from="1663016347689" duration="23000" />
+      <workItem from="1663056889599" duration="4204000" />
+      <workItem from="1663061162265" duration="37000" />
+      <workItem from="1663070329810" duration="1280000" />
+      <workItem from="1663087662490" duration="1104000" />
+      <workItem from="1663099277612" duration="2000" />
+      <workItem from="1663147219033" duration="506000" />
     </task>
     <servers />
   </component>

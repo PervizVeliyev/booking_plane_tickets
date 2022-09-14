@@ -3,6 +3,7 @@ package entity;
 import dao.Identifiable;
 import utility.Adjuster;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.text.MessageFormat;
 import java.time.Duration;
@@ -10,6 +11,8 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Flight implements Serializable,Identifiable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private static int counter = 1;
     private final int id;
     private final Airport airportFrom;

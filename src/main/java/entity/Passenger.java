@@ -2,11 +2,14 @@ package entity;
 
 import dao.Identifiable;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.text.MessageFormat;
 import java.util.Objects;
 
 public class Passenger implements Serializable, Identifiable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private static int counter = 1;
     private final int id;
     private final String firstName;

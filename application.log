@@ -201,3 +201,51 @@
 2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
 2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
 2022-09-11 23:33:24 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+2022-09-13 12:19:57 INFO  Logger:17 - A flight removed.
+13/09/2022 12-20-08 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+13/09/2022 12-20-28 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+13/09/2022 12-20-36 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+13/09/2022 12-20-41 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+13/09/2022 12-20-53 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+13/09/2022 12-21-04 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+2022-09-13 12:21:04 INFO  Logger:17 - A user saved to the database.
+2022-09-13 12:22:37 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-13 12:22:37 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-13 12:22:37 INFO  Logger:17 - The capacity decreased for BA586 flight.
+13/09/2022 12-22-37 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 7119867795259139740, local class serialVersionUID = 3278962668575628
+2022-09-13 12:22:37 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-13 12:22:37 INFO  Logger:17 - A user saved to the database.
+2022-09-13 12:59:35 INFO  Logger:17 - A user saved to the database.
+2022-09-13 13:03:31 INFO  Logger:17 - A user saved to the database.
+13/09/2022 13-21-26 ERROR Logger:26 - entity.Flight; local class incompatible: stream classdesc serialVersionUID = 838643808991539929, local class serialVersionUID = 1
+2022-09-13 13:21:27 INFO  Logger:17 - A list of flights saved to the database.
+2022-09-13 13:21:27 INFO  Logger:17 - A flight removed.
+2022-09-13 13:21:27 INFO  Logger:17 - A flight removed.
+2022-09-13 13:21:27 INFO  Logger:17 - A flight removed.
+13/09/2022 13-22-42 ERROR Logger:26 - entity.User; local class incompatible: stream classdesc serialVersionUID = -7940765054048209209, local class serialVersionUID = 1
+13/09/2022 13-22-53 ERROR Logger:26 - entity.User; local class incompatible: stream classdesc serialVersionUID = -7940765054048209209, local class serialVersionUID = 1
+13/09/2022 13-23-04 ERROR Logger:26 - entity.User; local class incompatible: stream classdesc serialVersionUID = -7940765054048209209, local class serialVersionUID = 1
+13/09/2022 13-23-13 ERROR Logger:26 - entity.User; local class incompatible: stream classdesc serialVersionUID = -7940765054048209209, local class serialVersionUID = 1
+13/09/2022 13-23-19 ERROR Logger:26 - entity.User; local class incompatible: stream classdesc serialVersionUID = -7940765054048209209, local class serialVersionUID = 1
+2022-09-13 13:23:19 INFO  Logger:17 - A user saved to the database.
+13/09/2022 13-23-44 ERROR Logger:26 - Text 'ed' could not be parsed at index 0
+13/09/2022 13-23-49 ERROR Logger:26 - Text 'ssesd' could not be parsed at index 0
+13/09/2022 13-23-54 ERROR Logger:26 - Text 'o' could not be parsed at index 0
+2022-09-13 13:24:43 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-13 13:24:43 INFO  Logger:17 - The capacity decreased for AA651 flight.
+13/09/2022 13-24-43 ERROR Logger:26 - entity.Booking; local class incompatible: stream classdesc serialVersionUID = 3278962668575628, local class serialVersionUID = 1
+2022-09-13 13:24:43 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-13 13:24:43 INFO  Logger:17 - A user saved to the database.
+2022-09-13 13:25:15 INFO  Logger:17 - A flight saved or updated to the database.
+2022-09-13 13:25:15 INFO  Logger:17 - The capacity decreased for AA651 flight.
+2022-09-13 13:25:15 INFO  Logger:17 - A booking saved or updated to the database.
+2022-09-13 13:25:15 INFO  Logger:17 - A user saved to the database.
+2022-09-14 13:26:55 INFO  Logger:17 - A flight removed.
+2022-09-14 13:26:55 INFO  Logger:17 - A flight removed.
+14/09/2022 13-26-59 ERROR Logger:26 - For input string: "Perviz"
+14/09/2022 13-27-04 ERROR Logger:26 - For input string: "Perviz1999"

@@ -2,12 +2,15 @@ package entity;
 
 import dao.Identifiable;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 public class User implements Serializable, Identifiable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private static int counter = 1;
     private final int id;
     private final String login;

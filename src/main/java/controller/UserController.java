@@ -2,6 +2,7 @@ package controller;
 
 import entity.Booking;
 import entity.User;
+import exception.UsernameExists;
 import service.BookingService;
 import service.UserService;
 
@@ -40,5 +41,14 @@ public class UserController {
         saveUser(user);
         if (bookingService.remove(bookingId)) return "Booking cancelled.";
         else return "No such booking found.";
+    }
+
+    public void userChecker(String username){
+        Optional<User> user = userService.getAllUsers()
+                .stream()
+                .filter(user1 -> user1.getLogin().equalsIgnoreCase(username))
+                .findFirst();
+
+        if(user.isPresent()) throw new UsernameExists("Such a user exists", new RuntimeException());
     }
 }
