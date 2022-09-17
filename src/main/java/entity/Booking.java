@@ -10,14 +10,13 @@ import java.util.Objects;
 public class Booking implements Serializable, Identifiable {
     @Serial
     private static final long serialVersionUID = 1L;
-    private static int counter = 1;
     private final int id;
     private final Flight flight;
     private List<Passenger> passengers;
 
 
-    public Booking(Flight flight, List<Passenger> passengers) {
-        this.id = counter++;
+    public Booking(int id, Flight flight, List<Passenger> passengers) {
+        this.id = id;
         this.flight = flight;
         this.passengers = passengers;
     }
@@ -40,12 +39,12 @@ public class Booking implements Serializable, Identifiable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Booking booking = (Booking) o;
-        return id == booking.id && flight.equals(booking.flight);
+        return id == booking.id;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, flight);
+        return Objects.hash(id);
     }
 
     @Override

@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class SearchAndBookFlight {
     public static void run(Console console, User loggedIn){
@@ -70,21 +71,22 @@ public class SearchAndBookFlight {
                             new RuntimeException());
 
                 flightController.decreaseCapacity(choice, number);
-                Booking booking = new Booking(flightController.get(choice).orElseThrow(), passengers);
+                Booking booking = new Booking(bookingController.getMaxId() + 1, flightController.get(choice).orElseThrow(), passengers);
                 bookingController.makeBooking(booking);
                 userController.addBookingToTheUser(loggedIn.getId(), booking);
                 console.printLine("Booked.");
                 break;
-            } catch (DateTimeParseException e) {
+            } catch (DateTimeParseException e){
                     console.printLine("Please, provide date in a format of \"dd/MM/yyyy\".");
                     Logger.error(e.getMessage());
-            }
-            catch (NumberFormatException e){
+            } catch (NumberFormatException e){
                 console.printLine("Please, provide a number for count of tickets.");
                 Logger.error(e.getMessage());
-            }
-            catch (TicketsOverCapacity e){
+            } catch (TicketsOverCapacity e){
                 console.printLine("Not enough capacity for this flight");
+                Logger.error(e.getMessage());
+            } catch(NoSuchElementException e){
+                console.printLine("No such flight found.");
                 Logger.error(e.getMessage());
             }
         }

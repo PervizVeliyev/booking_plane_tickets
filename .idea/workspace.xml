@@ -5,19 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b906094d-c4a3-438e-b5e0-c07520e877de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/UsernameExists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/bookings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/bookings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/flights.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/flights.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/CancelBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/CancelBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/console/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/MyBookings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/MyBookings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/console/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/SearchAndBookFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/SearchAndBookFlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BookingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/LoginMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/LoginMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-database/test-booking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-database/test-booking.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-database/test-flights.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-database/test-flights.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-database/test-users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-database/test-users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingServiceTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingServiceTest.getAllBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="booking_plane_tickets" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookingServiceTest" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="METHOD_NAME" value="getAllBookings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BookingServiceTest" />
-        <item itemvalue="JUnit.FlightServiceTest" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.BookingServiceTest.get" />
+        <item itemvalue="JUnit.FlightServiceTest" />
+        <item itemvalue="JUnit.BookingServiceTest" />
+        <item itemvalue="JUnit.BookingServiceTest.getAllBookings" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +178,27 @@
       <workItem from="1663070329810" duration="1280000" />
       <workItem from="1663087662490" duration="1104000" />
       <workItem from="1663099277612" duration="2000" />
-      <workItem from="1663147219033" duration="506000" />
+      <workItem from="1663147219033" duration="592000" />
+      <workItem from="1663181803847" duration="1759000" />
+      <workItem from="1663185291088" duration="2364000" />
+      <workItem from="1663245550443" duration="2213000" />
+      <workItem from="1663247955315" duration="142000" />
+      <workItem from="1663248109933" duration="726000" />
+      <workItem from="1663248854189" duration="2931000" />
+      <workItem from="1663251821877" duration="44000" />
+      <workItem from="1663251880222" duration="1187000" />
+      <workItem from="1663253089628" duration="1503000" />
+      <workItem from="1663260570347" duration="1483000" />
+      <workItem from="1663264519188" duration="104000" />
+      <workItem from="1663269180801" duration="589000" />
+      <workItem from="1663352118941" duration="139000" />
+      <workItem from="1663417998594" duration="377000" />
+      <workItem from="1663418417013" duration="123000" />
+      <workItem from="1663418565948" duration="1463000" />
+      <workItem from="1663423041480" duration="1097000" />
+      <workItem from="1663424157582" duration="484000" />
+      <workItem from="1663424657163" duration="558000" />
+      <workItem from="1663425237629" duration="1708000" />
     </task>
     <servers />
   </component>

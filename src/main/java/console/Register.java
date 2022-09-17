@@ -24,7 +24,7 @@ public class Register {
                 password = console.nextLine();
             } while (!Validator.isValidPassword(password, regex));
 
-            userController.saveUser(new User(username, password));
+            userController.saveUser(new User(userController.getMaxId() + 1, username, password));
         } catch (UsernameExists e) {
             console.printLine("Such a username exists.");
             Register.run(console);

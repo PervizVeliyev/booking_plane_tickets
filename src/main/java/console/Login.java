@@ -17,7 +17,7 @@ public class Login {
             String password = console.nextLine();
             if(password.equalsIgnoreCase("exit")) break;
 
-            if (userController.getAllUsers().contains(new User(login, password))) {
+            if (userController.getUserByLogin(login) != null && userController.getUserByLogin(login).getPassword().equals(password)) {
                 User loggedIn = userController.getAllUsers()
                                 .stream()
                                 .filter(user -> user.getLogin().equals(login.toLowerCase()) && user.getPassword().equals(password))

@@ -6,7 +6,7 @@ import entity.User;
 public class MyBookings {
     public static void run(Console console, User loggedIn){
         UserController userController = new UserController();
-        userController.getUser(loggedIn.getId()).get().getBookings()
+        userController.getUser(loggedIn.getId()).orElseThrow().getBookings()
                 .forEach(booking -> console.printLine(booking.toString()));
     }
 }

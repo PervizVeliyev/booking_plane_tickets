@@ -7,6 +7,7 @@ import service.BookingService;
 import service.UserService;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 public class UserController {
@@ -25,21 +26,31 @@ public class UserController {
         return userService.get(id);
     }
 
-    public boolean addBookingToTheUser(int userId, Booking booking){
+    public void addBookingToTheUser(int userId, Booking booking){
         User user = getUser(userId).orElseThrow();
         List<Booking> bookings = user.getBookings();
         bookings.add(booking);
         user.setBookings(bookings);
-        return saveUser(user);
+        saveUser(user);
     }
 
     public String cancelBookingFromUser(int bookingId, int userId){
-        User user = getUser(userId).orElseThrow();
-        List<Booking> bookings = user.getBookings();
-        bookings.remove(bookingService.get(bookingId).orElseThrow());
-        user.setBookings(bookings);
-        saveUser(user);
-        if (bookingService.remove(bookingId)) return "Booking cancelled.";
+        if(userService.get(userId)
+                .orElseThrow()
+                .getBookings()
+                .stream()
+                .map(Booking::getId)
+                .toList()
+                .contains(bookingId)) {
+            User user = getUser(userId).orElseThrow();
+            List<Booking> bookings = user.getBookings();
+            bookings.remove(bookingService.get(bookingId).orElseThrow());
+            user.setBookings(bookings);
+            saveUser(user);
+            bookingService.remove(bookingId);
+
+            return "Booking cancelled.";
+        }
         else return "No such booking found.";
     }
 
@@ -50,5 +61,25 @@ public class UserController {
                 .findFirst();
 
         if(user.isPresent()) throw new UsernameExists("Such a user exists", new RuntimeException());
+    }
+
+    public int getMaxId(){
+        if(userService.getAllUsers().isEmpty()){
+            return 0;
+        }
+        else{
+            return userService.getAllUsers()
+                    .stream()
+                    .mapToInt(User::getId)
+                    .max().orElseThrow(NoSuchElementException::new);
+        }
+    }
+
+    public User getUserByLogin(String login){
+        return userService.getAllUsers()
+                .stream()
+                .filter(user -> login.equalsIgnoreCase(user.getLogin()))
+                .findFirst()
+                .orElse(null);
     }
 }

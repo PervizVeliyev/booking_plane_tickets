@@ -7,8 +7,8 @@ import java.util.List;
 
 public class UserServiceTest {
     UserService userService = new UserService("C:\\Users\\Perviz Veliyev\\IdeaProjects\\booking_plane_tickets\\src\\test-database\\test-users.txt");
-    User user1 = new User("Perviz", "perviz123A");
-    User user2 = new User("Ferid", "ferid123A");
+    User user1 = new User(1, "Perviz", "perviz123A");
+    User user2 = new User(2, "Ferid", "ferid123A");
 
     @Test
     public void getAllUsers() {

@@ -10,8 +10,7 @@ public class LoginMenu {
     public static void run(Console console){
         FlightController flightController = new FlightController();
 
-//      Checking if flights are empty
-        if(flightController.getAllFlights().isEmpty())
+        if(flightController.getAllFlights().isEmpty())   // Checking if flights are empty
             flightController.saveAllFlights(FlightsGenerator.generator(300));
 
         flightController.removeExpiredFlights();

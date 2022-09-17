@@ -2,6 +2,7 @@ package console;
 
 import controller.FlightController;
 import controller.UserController;
+import entity.Booking;
 import entity.User;
 import logging.Logger;
 
@@ -17,7 +18,6 @@ public class CancelBooking {
             int id = Integer.parseInt(console.nextLine());
 
             flightController.increaseCapacity(id);
-
             console.printLine(userController.cancelBookingFromUser(id, loggedIn.getId()));
         } catch (NumberFormatException e) {
             console.printLine("Please, provide a number for id.");

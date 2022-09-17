@@ -13,8 +13,15 @@ public class BookingServiceTest {
     Flight flight1 = new Flight(Airport.BAKU, Airport.BARCELONA, LocalDateTime.now(), Duration.ofDays(5), Airline.AMERICAN_AIRLINE, 657, 100);
     Flight flight2 = new Flight(Airport.BAKU, Airport.BARCELONA, LocalDateTime.now(), Duration.ofDays(8), Airline.EMIRATES_AIRLINE, 123, 101);
     Passenger passenger1 = new Passenger("Emil", "Tehmezov");
-    Booking booking1 = new Booking(flight1, List.of(passenger1));
-    Booking booking2 = new Booking(flight2, List.of(passenger1));
+    Booking booking1 = new Booking(1, flight1, List.of(passenger1));
+    Booking booking2 = new Booking(2, flight2, List.of(passenger1));
+
+    @Test
+    public void getAllBookings() {
+        bookingService.makeBooking(booking1);
+        bookingService.makeBooking(booking2);
+        Assert.assertEquals(List.of(booking2, booking1), bookingService.getAllBookings());
+    }
 
     @Test
     public void get() {
@@ -25,7 +32,6 @@ public class BookingServiceTest {
 
     @Test
     public void makeBookingPositiveCase() {
-        Booking booking2 = new Booking(flight2, List.of(passenger1));
         Assert.assertTrue(bookingService.makeBooking(booking2));
     }
 

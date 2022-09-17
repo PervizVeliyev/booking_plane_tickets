@@ -11,14 +11,13 @@ import java.util.Objects;
 public class User implements Serializable, Identifiable {
     @Serial
     private static final long serialVersionUID = 1L;
-    private static int counter = 1;
     private final int id;
     private final String login;
     private final String password;
     private List<Booking> bookings;
 
-    public User(String login, String password) {
-        this.id = counter++;
+    public User(int id, String login, String password) {
+        this.id = id;
         this.login = login.toLowerCase();
         this.password = password;
     }
